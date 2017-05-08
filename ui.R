@@ -1,5 +1,5 @@
-library(shiny)
-library(scatterD3)
+require(shiny)
+require(scatterD3)
 
 # Carrior delay
 carrier_delay <- read.csv("prob_delay.csv")
