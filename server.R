@@ -2,6 +2,7 @@ library(shiny)
 library(ggplot2)
 require(wordcloud)
 require(tm)
+require(DT)
 
 function(input, output) {
   
