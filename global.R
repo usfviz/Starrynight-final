@@ -35,5 +35,6 @@ carrier_delay <- read.csv("prob_delay.csv")
 carrier_delay$carrier <- as.character(carrier_delay$carrier)
 
 # data source2: airport
+airport<-load('airports.rda')
 usairports <- filter(airports, lat < 48.5)
 usairports <- filter(usairports, lon > -130)
